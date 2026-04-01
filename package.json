@@ -1,0 +1,29 @@
+{
+  "name": "ppcv",
+  "version": "1.0.2",
+  "description": "CLI validator for Power Platform custom connector files (apiDefinition.swagger.json, apiProperties.json, script.csx)",
+  "bin": {
+    "ppcv": "./bin/cli.js"
+  },
+  "main": "./lib/validator.js",
+  "files": [
+    "bin/",
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "power-platform",
+    "custom-connector",
+    "swagger",
+    "openapi",
+    "validator",
+    "paconn",
+    "copilot-studio"
+  ],
+  "author": "Troy Taylor <troy@troystaylor.com> (https://github.com/troystaylor)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
